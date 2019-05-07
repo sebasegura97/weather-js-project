@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Weather project</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="location">
+            <h1 class="location-timezone">Timezone</h1>
+            <!-- Antes del canvas poner un p ilustrativo: -->
+            <!-- <p>icon</p> -->
+            <!-- esto viene de http://darkskyapp.github.io/skycons/, pero hay que borrar el id y agregar class="icon" -->
+            <canvas class="icon" width="128" height="128"></canvas>
+        </div>
+
+        <div class="temperature">
+            <div class="temperature-section">
+                <h2 class="temperature-degree">34</h2>
+                <span>F</span>
+            </div>
+            <div class="temperature-description">Its friggin cold</div>
+        </div>
+
+        <script src="skycons.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
